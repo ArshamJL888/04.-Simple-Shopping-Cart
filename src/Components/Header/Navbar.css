@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 550;
+    transition: 0.15s all ease-in-out;
+}
+
+.navbar>li {
+    margin-right: 1rem;
+}
+
+.navbar>li>a:hover {
+    color: #BBB;
+}
